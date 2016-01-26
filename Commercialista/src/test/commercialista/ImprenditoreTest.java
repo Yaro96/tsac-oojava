@@ -13,11 +13,11 @@ public class ImprenditoreTest {
 	public void test() {
 		Imprenditore i=new Imprenditore();
 		i.setNumFatture(99);
-		assertEquals(500, i.getParcella());
+		assertEquals(500, i.getParcella(), 0.001);
 		
 		Imprenditore j=new Imprenditore();
 		j.setNumFatture(101);
-		assertEquals(501, j.getParcella());
+		assertEquals(501, j.getParcella(), 0.001);
 	}
 
 }

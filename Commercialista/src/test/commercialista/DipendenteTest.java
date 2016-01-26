@@ -12,7 +12,7 @@ public class DipendenteTest {
 	@Test
 	public void test() {
 		Dipendente d=new Dipendente();
-		assertEquals(50,d.getParcella());
+		assertEquals(50,d.getParcella(),0.001);
 	}
 
 }
