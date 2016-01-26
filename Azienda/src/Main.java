@@ -1,3 +1,4 @@
+import Bershadskyy.Yaroslav.azienda.*;
 
 public class Main {
 
@@ -14,6 +15,10 @@ public class Main {
 		GestioneContabile contabileApple=new GestioneContabile(apple);
 		System.out.println("Somma stipendi(in centesimi): "+contabileApple.sommaStipendi());
 		contabileApple.elencoStipendioMassimo(250000);
+		Dipendente max=contabileApple.dipendentiMaxStipendi();
+		System.out.println("\nDipendente con stipendio massimo");
+		System.out.println(max.getNome()+"\t"+max.getCognome()+"\t"+max.calcoloStipendio());
+		
 	}
 
 }

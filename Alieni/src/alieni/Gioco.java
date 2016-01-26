@@ -1,13 +1,13 @@
-
+package alieni;
 public class Gioco {
 	
 	Giocatore player;
 	
-	Gioco(Giocatore p){
+	public Gioco(Giocatore p){
 		player=p;
 	}
 	
-	boolean isAlive(Alieno[] alieni){
+	public boolean isAlive(Alieno[] alieni){
 		for(int i=0;i<alieni.length;i++){
 			player.salute-=alieni[i].danno;
 		}

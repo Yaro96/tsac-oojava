@@ -7,6 +7,7 @@ public class Main {
 	{
 		Scanner scan=new Scanner(System.in);
 		int n=scan.nextInt();
+		scan.close();
 		return n;
 	}
 
