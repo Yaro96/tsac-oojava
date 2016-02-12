@@ -8,7 +8,6 @@ import commercialista.Imprenditore;
 
 public class ImprenditoreTest {
 
-	@SuppressWarnings("deprecation")
 	@Test
 	public void test() {
 		Imprenditore i=new Imprenditore();

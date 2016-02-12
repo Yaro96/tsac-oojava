@@ -8,7 +8,6 @@ import commercialista.Dipendente;
 
 public class DipendenteTest {
 
-	@SuppressWarnings("deprecation")
 	@Test
 	public void test() {
 		Dipendente d=new Dipendente();
